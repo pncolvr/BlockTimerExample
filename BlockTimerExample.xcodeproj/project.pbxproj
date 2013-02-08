@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F0FDE5216C5624800F47AC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F0FDE5116C5624800F47AC5 /* UIKit.framework */; };
+		7F0FDE5416C5624800F47AC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F0FDE5316C5624800F47AC5 /* Foundation.framework */; };
+		7F0FDE5616C5624800F47AC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F0FDE5516C5624800F47AC5 /* CoreGraphics.framework */; };
+		7F0FDE5C16C5624800F47AC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F0FDE5A16C5624800F47AC5 /* InfoPlist.strings */; };
+		7F0FDE5E16C5624800F47AC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0FDE5D16C5624800F47AC5 /* main.m */; };
+		7F0FDE6216C5624800F47AC5 /* POAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0FDE6116C5624800F47AC5 /* POAppDelegate.m */; };
+		7F0FDE6416C5624800F47AC5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F0FDE6316C5624800F47AC5 /* Default.png */; };
+		7F0FDE6616C5624800F47AC5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F0FDE6516C5624800F47AC5 /* Default@2x.png */; };
+		7F0FDE6816C5624800F47AC5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F0FDE6716C5624800F47AC5 /* Default-568h@2x.png */; };
+		7F0FDE6B16C5624800F47AC5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F0FDE6916C5624800F47AC5 /* MainStoryboard.storyboard */; };
+		7F0FDE6E16C5624800F47AC5 /* POViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0FDE6D16C5624800F47AC5 /* POViewController.m */; };
+		7F0FDE7716C5626A00F47AC5 /* NSTimer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0FDE7616C5626A00F47AC5 /* NSTimer+Blocks.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F0FDE4E16C5624800F47AC5 /* BlockTimerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockTimerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0FDE5116C5624800F47AC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7F0FDE5316C5624800F47AC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F0FDE5516C5624800F47AC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7F0FDE5916C5624800F47AC5 /* BlockTimerExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlockTimerExample-Info.plist"; sourceTree = "<group>"; };
+		7F0FDE5B16C5624800F47AC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F0FDE5D16C5624800F47AC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F0FDE5F16C5624800F47AC5 /* BlockTimerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockTimerExample-Prefix.pch"; sourceTree = "<group>"; };
+		7F0FDE6016C5624800F47AC5 /* POAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POAppDelegate.h; sourceTree = "<group>"; };
+		7F0FDE6116C5624800F47AC5 /* POAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POAppDelegate.m; sourceTree = "<group>"; };
+		7F0FDE6316C5624800F47AC5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7F0FDE6516C5624800F47AC5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7F0FDE6716C5624800F47AC5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7F0FDE6A16C5624800F47AC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7F0FDE6C16C5624800F47AC5 /* POViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POViewController.h; sourceTree = "<group>"; };
+		7F0FDE6D16C5624800F47AC5 /* POViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POViewController.m; sourceTree = "<group>"; };
+		7F0FDE7516C5626A00F47AC5 /* NSTimer+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Blocks.h"; sourceTree = "<group>"; };
+		7F0FDE7616C5626A00F47AC5 /* NSTimer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Blocks.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F0FDE4B16C5624800F47AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0FDE5216C5624800F47AC5 /* UIKit.framework in Frameworks */,
+				7F0FDE5416C5624800F47AC5 /* Foundation.framework in Frameworks */,
+				7F0FDE5616C5624800F47AC5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F0FDE4516C5624800F47AC5 = {
+			isa = PBXGroup;
+			children = (
+				7F0FDE5716C5624800F47AC5 /* BlockTimerExample */,
+				7F0FDE5016C5624800F47AC5 /* Frameworks */,
+				7F0FDE4F16C5624800F47AC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F0FDE4F16C5624800F47AC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F0FDE4E16C5624800F47AC5 /* BlockTimerExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F0FDE5016C5624800F47AC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F0FDE5116C5624800F47AC5 /* UIKit.framework */,
+				7F0FDE5316C5624800F47AC5 /* Foundation.framework */,
+				7F0FDE5516C5624800F47AC5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F0FDE5716C5624800F47AC5 /* BlockTimerExample */ = {
+			isa = PBXGroup;
+			children = (
+				7F0FDE7416C5624D00F47AC5 /* blocktimer */,
+				7F0FDE6016C5624800F47AC5 /* POAppDelegate.h */,
+				7F0FDE6116C5624800F47AC5 /* POAppDelegate.m */,
+				7F0FDE6916C5624800F47AC5 /* MainStoryboard.storyboard */,
+				7F0FDE6C16C5624800F47AC5 /* POViewController.h */,
+				7F0FDE6D16C5624800F47AC5 /* POViewController.m */,
+				7F0FDE5816C5624800F47AC5 /* Supporting Files */,
+			);
+			path = BlockTimerExample;
+			sourceTree = "<group>";
+		};
+		7F0FDE5816C5624800F47AC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F0FDE5916C5624800F47AC5 /* BlockTimerExample-Info.plist */,
+				7F0FDE5A16C5624800F47AC5 /* InfoPlist.strings */,
+				7F0FDE5D16C5624800F47AC5 /* main.m */,
+				7F0FDE5F16C5624800F47AC5 /* BlockTimerExample-Prefix.pch */,
+				7F0FDE6316C5624800F47AC5 /* Default.png */,
+				7F0FDE6516C5624800F47AC5 /* Default@2x.png */,
+				7F0FDE6716C5624800F47AC5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F0FDE7416C5624D00F47AC5 /* blocktimer */ = {
+			isa = PBXGroup;
+			children = (
+				7F0FDE7516C5626A00F47AC5 /* NSTimer+Blocks.h */,
+				7F0FDE7616C5626A00F47AC5 /* NSTimer+Blocks.m */,
+			);
+			path = blocktimer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F0FDE4D16C5624800F47AC5 /* BlockTimerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F0FDE7116C5624800F47AC5 /* Build configuration list for PBXNativeTarget "BlockTimerExample" */;
+			buildPhases = (
+				7F0FDE4A16C5624800F47AC5 /* Sources */,
+				7F0FDE4B16C5624800F47AC5 /* Frameworks */,
+				7F0FDE4C16C5624800F47AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockTimerExample;
+			productName = BlockTimerExample;
+			productReference = 7F0FDE4E16C5624800F47AC5 /* BlockTimerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F0FDE4616C5624800F47AC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PO;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Pedro Oliveira";
+			};
+			buildConfigurationList = 7F0FDE4916C5624800F47AC5 /* Build configuration list for PBXProject "BlockTimerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F0FDE4516C5624800F47AC5;
+			productRefGroup = 7F0FDE4F16C5624800F47AC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F0FDE4D16C5624800F47AC5 /* BlockTimerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F0FDE4C16C5624800F47AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0FDE5C16C5624800F47AC5 /* InfoPlist.strings in Resources */,
+				7F0FDE6416C5624800F47AC5 /* Default.png in Resources */,
+				7F0FDE6616C5624800F47AC5 /* Default@2x.png in Resources */,
+				7F0FDE6816C5624800F47AC5 /* Default-568h@2x.png in Resources */,
+				7F0FDE6B16C5624800F47AC5 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F0FDE4A16C5624800F47AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0FDE5E16C5624800F47AC5 /* main.m in Sources */,
+				7F0FDE6216C5624800F47AC5 /* POAppDelegate.m in Sources */,
+				7F0FDE6E16C5624800F47AC5 /* POViewController.m in Sources */,
+				7F0FDE7716C5626A00F47AC5 /* NSTimer+Blocks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F0FDE5A16C5624800F47AC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F0FDE5B16C5624800F47AC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7F0FDE6916C5624800F47AC5 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F0FDE6A16C5624800F47AC5 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F0FDE6F16C5624800F47AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F0FDE7016C5624800F47AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F0FDE7216C5624800F47AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockTimerExample/BlockTimerExample-Prefix.pch";
+				INFOPLIST_FILE = "BlockTimerExample/BlockTimerExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7F0FDE7316C5624800F47AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockTimerExample/BlockTimerExample-Prefix.pch";
+				INFOPLIST_FILE = "BlockTimerExample/BlockTimerExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F0FDE4916C5624800F47AC5 /* Build configuration list for PBXProject "BlockTimerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F0FDE6F16C5624800F47AC5 /* Debug */,
+				7F0FDE7016C5624800F47AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F0FDE7116C5624800F47AC5 /* Build configuration list for PBXNativeTarget "BlockTimerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F0FDE7216C5624800F47AC5 /* Debug */,
+				7F0FDE7316C5624800F47AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F0FDE4616C5624800F47AC5 /* Project object */;
+}
