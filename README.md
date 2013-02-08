@@ -13,4 +13,4 @@ Usage example:
                                                     }];
 ```
 
-Just copy the NSTimer+Blocks to your project
+Just copy the NSTimer+Blocks files to your project
